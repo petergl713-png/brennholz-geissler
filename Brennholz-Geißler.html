@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennholz Geißler - Trocken & Ofenfertig | Eging am See</title>
+    <meta name="description" content="Hochwertiges Brennholz (Hartholz & Weichholz) in Eging am See. Trocken, ofenfertig und regional. Jetzt Preise einsehen und direkt bestellen!">
+    <style>
+        :root {
+            --primary-color: #4a2c1a; /* Dunkleres Holzbraun */
+            --secondary-color: #7d4e24; 
+            --accent-color: #27ae60; /* Grün für Nachhaltigkeit/Verfügbarkeit */
+            --background-color: #fcfaf7;
+            --text-color: #2c3e50;
+            --box-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1520114878144-6123749968dd?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* Vorteile-Sektion */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .feature-tag {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .info-box {
+            background-color: var(--box-bg);
+            border-left: 5px solid var(--accent-color);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .price-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .price-card {
+            background-color: var(--box-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-top: 6px solid var(--primary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .price-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .price-card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .price-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .price-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .price-val {
+            font-weight: bold;
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+        }
+
+        /* Buttons */
+        .cta-container {
+            text-align: center;
+            margin-top: 3rem;
+            background: #fff;
+            padding: 3rem 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 0.5rem;
+            transition: opacity 0.3s;
+        }
+
+        .btn-phone { background-color: var(--primary-color); color: white; }
+        .btn-whatsapp { background-color: #25D366; color: white; }
+        .btn:hover { opacity: 0.9; color: white; }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            margin-top: 4rem;
+        }
+
+        footer a { color: #ddd; text-decoration: none; margin: 0 10px; }
+
+        .legal-section {
+            background-color: white;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .btn { display: flex; width: 100%; justify-content: center; box-sizing: border-box; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Brennholz Geißler</h1>
+        <p>Trocken, ofenfertig & direkt aus der Region</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="features">
+            <div class="feature-tag">✅ Ofenfertig (trocken)</div>
+            <div class="feature-tag">✅ Regionale Herkunft</div>
+            <div class="feature-tag">✅ Schnelle Lieferung</div>
+            <div class="feature-tag">✅ Faire Ster-Preise</div>
+        </div>
+
+        <div class="info-box">
+            <p><strong>Heizen Sie effizient!</strong> Unser Holz ist optimal gelagert und sofort brennbar. Gerne erstellen wir Ihnen ein individuelles Angebot für Ihren Wunsch-Mix aus Hart- und Weichholz.</p>
+            <p>🚚 <strong>Lieferung:</strong> Wir liefern kostengünstig direkt zu Ihnen nach Hause (Raum Eging am See & Umgebung).</p>
+        </div>
+
+        <h2>Aktuelle Preise</h2>
+        <div class="price-grid">
+            
+            <!-- Weichholz -->
+            <div class="price-card">
+                <h3>🌲 Weichholz</h3>
+                <p style="text-align:center; font-size: 0.9rem; color: #666;">(z.B. Fichte, Kiefer)</p>
+                <ul class="price-list">
+                    <li>
+                        <span>Meterware (pro Ster)</span>
+                        <span class="price-val">70 €</span>
+                    </li>
+                    <li>
+                        <span>33cm Länge</span>
+                        <span class="price-val">80 €</span>
+                    </li>
+                    <li>
+                        <span>25cm Länge</span>
+                        <span class="price-val">85 €</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Hartholz -->
+            <div class="price-card">
+                <h3>🌳 Hartholz</h3>
+                <p style="text-align:center; font-size: 0.9rem; color: #666;">(z.B. Buche, Esche)</p>
+                <ul class="price-list">
+                    <li>
+                        <span>Meterware (pro Ster)</span>
+                        <span class="price-val">95 €</span>
+                    </li>
+                    <li>
+                        <span>33cm Länge</span>
+                        <span class="price-val">105 €</span>
+                    </li>
+                    <li>
+                        <span>25cm Länge</span>
+                        <span class="price-val">110 €</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cta-container">
+            <h2>Jetzt Brennholz bestellen</h2>
+            <p>Rufen Sie uns an oder schreiben Sie eine WhatsApp für eine schnelle Terminvereinbarung.</p>
+            
+            <a href="tel:+491718254155" class="btn btn-phone">📞 0171 8254155</a>
+            <a href="https://wa.me/491718254155" class="btn btn-whatsapp">💬 WhatsApp Nachricht</a>
+            
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">Erreichbar: Mo-Sa 08:00 - 18:00 Uhr</p>
+        </div>
+
+        <!-- RECHTLICHER TEIL -->
+        <div id="impressum" class="legal-section">
+            <h2>Impressum</h2>
+            <p><strong>Landwirtschaftliche Urproduktion</strong><br>
+            Peter Josef Geißler<br>
+            [Deine Straße Hausnummer]<br>
+            94535 Eging am See</p>
+            <p>E-Mail: [Deine E-Mail-Adresse]</p>
+            <p>Umsatzsteuer-ID: in Erteilung</p>
+        </div>
+
+        <div id="datenschutz" class="legal-section">
+            <h2>Datenschutz</h2>
+            <p>Wir verwenden keine Cookies oder Tracking-Tools. Bei einem Anruf oder einer WhatsApp-Nachricht speichern wir Ihre Nummer nur zur Abwicklung der Bestellung. Details siehe Standard-DSGVO für Kleinbetriebe.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Brennholz Geißler - Eging am See</p>
+        <p>
+            <a href="#impressum">Impressum</a> | 
+            <a href="#datenschutz">Datenschutz</a>
+        </p>
+    </footer>
+
+</body>
+</html>
