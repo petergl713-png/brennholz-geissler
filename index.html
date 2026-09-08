@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brennholz Geißler - Trocken & Ofenfertig | Eging am See</title>
-    <meta name="description" content="Hochwertiges Brennholz (Hartholz & Weichholz) in Eging am See. Trocken, ofenfertig und regional. Jetzt Preise einsehen und direkt bestellen!">
+    <title>Brennholz Geißler - Trocken & Ofenfertig</title>
+    <meta name="description" content="Hochwertiges Brennholz (Hartholz & Weichholz) in ganz Niederbayern. Trocken, ofenfertig und regional. Jetzt Preise einsehen und direkt bestellen!">
     <style>
         :root {
             --primary-color: #4a2c1a; /* Dunkleres Holzbraun */
@@ -25,10 +25,11 @@
         }
 
         header {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1520114878144-6123749968dd?auto=format&fit=crop&w=1200&q=80') center/cover;
+            /* Hier wird dein Bild 'brennholz.png' aus demselben Ordner geladen */
+            background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('brennholz.png') center/cover no-repeat;
             color: white;
             text-align: center;
-            padding: 4rem 1rem;
+            padding: 5rem 1rem;
             border-bottom: 5px solid var(--secondary-color);
         }
 
@@ -190,15 +191,27 @@
     <div class="container">
         
         <div class="features">
-            <div class="feature-tag">✅ Ofenfertig (trocken)</div>
+            <div class="feature-tag">✅ Ofenfertig & trocken</div>
             <div class="feature-tag">✅ Regionale Herkunft</div>
             <div class="feature-tag">✅ Schnelle Lieferung</div>
-            <div class="feature-tag">✅ Faire Ster-Preise</div>
+            <div class="feature-tag">✅ Hohe Kundenzufriedenheit</div>
         </div>
 
         <div class="info-box">
-            <p><strong>Heizen Sie effizient!</strong> Unser Holz ist optimal gelagert und sofort brennbar. Gerne erstellen wir Ihnen ein individuelles Angebot für Ihren Wunsch-Mix aus Hart- und Weichholz.</p>
-            <p>🚚 <strong>Lieferung:</strong> Wir liefern kostengünstig direkt zu Ihnen nach Hause (Raum Eging am See & Umgebung).</p>
+            <div style="display: flex; margin-bottom: 1em; line-height: 1.5;">
+                <strong style="min-width: 90px; flex-shrink: 0;">Lagerung:</strong>
+                <div>
+                    Heizen Sie effizient! Unser Holz ist optimal gelagert und sofort brennbar.<br>
+                    Gerne erstellen wir Ihnen ein individuelles Angebot für Ihren Wunsch-Mix aus Hart- und Weichholz.
+                </div>
+            </div>
+            <div style="display: flex; margin-bottom: 1em;">
+                <strong style="min-width: 90px; flex-shrink: 0;">Lieferung:</strong>
+                <div>
+                    Wir liefern kostengünstig direkt zu Ihnen nach Hause in ganz Niederbayern.<br>
+                    Holzscheite werden lose in einer Menge von 1 bis 10 Ster geliefert.
+                </div>
+            </div>
         </div>
 
         <h2>Aktuelle Preise</h2>
@@ -210,15 +223,19 @@
                 <p style="text-align:center; font-size: 0.9rem; color: #666;">(z.B. Fichte, Kiefer)</p>
                 <ul class="price-list">
                     <li>
-                        <span>Meterware (pro Ster)</span>
+                        <span>Meterware pro Ster</span>
                         <span class="price-val">70 €</span>
                     </li>
                     <li>
-                        <span>33cm Länge</span>
+                        <span>1 Ster in <b>50cm</b> Länge geschnitten</span>
+                        <span class="price-val">75 €</span>
+                    </li>
+                    <li>
+                        <span>1 Ster in <b>33cm</b> Länge geschnitten</span>
                         <span class="price-val">80 €</span>
                     </li>
                     <li>
-                        <span>25cm Länge</span>
+                        <span>1 Ster in <b>25cm</b> Länge geschnitten</span>
                         <span class="price-val">85 €</span>
                     </li>
                 </ul>
@@ -230,15 +247,19 @@
                 <p style="text-align:center; font-size: 0.9rem; color: #666;">(z.B. Buche, Esche)</p>
                 <ul class="price-list">
                     <li>
-                        <span>Meterware (pro Ster)</span>
+                        <span>Meterware pro Ster</span>
                         <span class="price-val">95 €</span>
                     </li>
                     <li>
-                        <span>33cm Länge</span>
+                        <span>1 Ster in <b>50cm</b> Länge geschnitten</span>
+                        <span class="price-val">100 €</span>
+                    </li>
+                    <li>
+                        <span>1 Ster in <b>33cm</b> Länge geschnitten</span>
                         <span class="price-val">105 €</span>
                     </li>
                     <li>
-                        <span>25cm Länge</span>
+                        <span>1 Ster in <b>25cm</b> Länge geschnitten</span>
                         <span class="price-val">110 €</span>
                     </li>
                 </ul>
@@ -258,12 +279,14 @@
         <!-- RECHTLICHER TEIL -->
         <div id="impressum" class="legal-section">
             <h2>Impressum</h2>
-            <p><strong>Landwirtschaftliche Urproduktion</strong><br>
-            Peter Josef Geißler<br>
-            [Deine Straße Hausnummer]<br>
-            94535 Eging am See</p>
-            <p>E-Mail: [Deine E-Mail-Adresse]</p>
-            <p>Umsatzsteuer-ID: in Erteilung</p>
+            <p><strong>Brennholzverkauf Geißler</strong><br>
+            Geißler Johannes<br>
+            Sieberding 28<br>
+            94547 Iggensbach <br>
+            Tel: 01621774928 </p>
+            <p>E-Mail: johannesgeiler@yahoo.de <br>
+               E-Mail: petergl713@gmail.com </p>
+            <p>Umsatzsteuer-ID: 108/191/47871</p>
         </div>
 
         <div id="datenschutz" class="legal-section">
@@ -274,7 +297,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 Brennholz Geißler - Eging am See</p>
+        <p>&copy; 2026 Brennholz Geißler - Iggensbach</p>
         <p>
             <a href="#impressum">Impressum</a> | 
             <a href="#datenschutz">Datenschutz</a>
